@@ -1,0 +1,4 @@
+baseurl = "http://nilobject.com/"
+languageCode = "en-us"
+title = "NilObject"
+theme = "hugo-theme-blueberry-detox"
