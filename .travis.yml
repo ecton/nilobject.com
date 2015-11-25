@@ -5,7 +5,10 @@ go:
 
 script: hugo
 
+sudo: required
+
 install:
+ - sudo apt-get install awscli
  - go get github.com/spf13/hugo
  - go install github.com/spf13/hugo
 
