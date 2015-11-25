@@ -1,8 +1,7 @@
 +++
 date  = "2014-07-01T12:00:00-05:00"
 title = "PostgreSQL: Dealing with half a billion rows"
-tags   = ["postgresql", "databases", "optimization"]
-topics = ["postgresql", "databases", "optimization"]
+categories = ["databases", "optimization"]
 slug   = "postgresql-dealing-with-half-a-billion-rows"
 +++
 

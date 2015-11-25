@@ -1,4 +1,12 @@
 baseurl = "http://nilobject.com/"
 languageCode = "en-us"
 title = "NilObject"
-theme = "hugo-theme-blueberry-detox"
+theme = "hugo-redlounge"
+
+[params]
+sidebartitle = "NilObject"
+sidebartagline = "Entrepreneur, geek, gamer, nice guy"
+
+[[menu.main]]
+name = "About Me"
+url = "/page/about_me/"
