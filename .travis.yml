@@ -13,4 +13,4 @@ install:
 after_success:
  - $HOME/.local/bin/aws configure set preview.cloudfront true
  - $HOME/.local/bin/aws s3 sync public/ s3://nilobject-www/
- - '$HOME/.local/bin/aws cloudfront create-invalidation --cli-input-json ''{"DistributionId":"EDCLFT61IWUX3","InvalidationBatch":{"Paths":{"Quantity":1,"Items":["/*"]},"CallerReference":"`date +%s`"}}'''
+ - '$HOME/.local/bin/aws cloudfront create-invalidation --cli-input-json "{\"DistributionId\":\"EDCLFT61IWUX3\",\"InvalidationBatch\":{\"Paths\":{\"Quantity\":1,\"Items\":[\"/*\"]},\"CallerReference\":\"`date +%s`\"}}"'
