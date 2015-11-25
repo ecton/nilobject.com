@@ -1,0 +1,14 @@
+language: go
+
+go:
+  - tip
+
+script: hugo
+
+install:
+  - go get github.com/spf13/hugo
+  - go install github.com/spf13/hugo
+
+after_success:
+  - aws s3 sync public/ s3://nilobject-www/
+  - "aws cloudfront create-invalidation --cli-input-json '{\"DistributionId\":\"EDCLFT61IWUX3\",\"InvalidationBatch\":{\"Paths\":{\"Quantity\":1,\"Items\":["/*\"]},\"CallerReference\":\"`date +%s`\"}}'
