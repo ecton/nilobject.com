@@ -2,6 +2,7 @@ baseurl = "http://nilobject.com/"
 languageCode = "en-us"
 title = "NilObject"
 theme = "hugo-redlounge"
+disqusShortname = "nilobject"
 
 [params]
 sidebartitle = "NilObject"
