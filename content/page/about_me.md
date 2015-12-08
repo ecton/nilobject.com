@@ -1,6 +1,7 @@
 +++
 title = "About Me"
 nodate = true
+exclude = true
 +++
 
 I'm a life-long developer who has worked on countless projects with countless languages. My current role began in 2009 when I co-founded [Core-apps](http://www.core-apps.com/) and wrote apps for Android, iOS, and mobile web. Over the past years, I went from being the sole developer to managing and mentoring a full development team.

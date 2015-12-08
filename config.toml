@@ -4,9 +4,13 @@ title = "NilObject"
 theme = "hugo-redlounge"
 disqusShortname = "nilobject"
 
+[author]
+    name = "Jonathan Johnson"
+    email = "jon@nilobject.com"
+
 [params]
 sidebartitle = "NilObject"
-sidebartagline = "Entrepreneur, geek, gamer, nice guy"
+sidebartagline = "entrepreneur, geek, gamer, nice guy"
 
 [[menu.main]]
 name = "About Me"

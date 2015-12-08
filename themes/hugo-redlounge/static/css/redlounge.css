@@ -42,7 +42,7 @@ p a {
 }
 h1 {
 	font-family: 'Libre Baskerville', serif;
-	font-weight: 700; 
+	font-weight: 700;
 }
 .center {
 	text-align: center;
@@ -81,7 +81,7 @@ h1.brand-title {
 	font-family: 'Libre Baskerville', serif;
 	font-weight: 400;
 	padding-top: 1rem;
-	font-size: 3rem;
+	font-size: 2.25rem;
 	margin-bottom: 0.25rem;
 }
 h2.brand-tagline {
@@ -444,16 +444,20 @@ hr.thin {
 	width: 90%;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
 	h1.brand-title {
 		font-size: 2.5rem;
 	}
 	h2.brand-tagline {
 		font-size: 1.2rem;
 	}
+
+    .header .sidebarlogo{
+	    max-height: 200px;
+	}
 }
 
-@media (min-width: 48rem) {
+@media (min-width: 768px) {
 	.content {
         padding: 2rem 3rem 0;
         margin-left: 25%;
@@ -466,6 +470,7 @@ hr.thin {
     .header {
         margin: 30% 2rem 0;
         text-align: right;
+        word-wrap: break-word;
     }
 
     .header .sidebarphoto{
@@ -474,6 +479,10 @@ hr.thin {
 	    border-radius: 50%;
 	    -moz-border-radius: 50%;
 	    -webkit-border-radius: 50%;
+	}
+
+    .header .sidebarlogo{
+	    width: 100%;
 	}
 
     .sidebar {
